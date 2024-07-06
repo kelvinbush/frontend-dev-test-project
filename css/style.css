@@ -21,6 +21,20 @@ body {
   line-height: 1.6;
   font-size: 1.6rem;
   padding: 1.6rem;
+  position: relative;
+
+  .help {
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    right: 2rem;
+    bottom: 2rem;
+    color: #555657;
+    background-color: #e9eaee;
+    padding: 1rem;
+    box-sizing: content-box;
+    border-radius: 0.6rem;
+  }
 }
 
 .flex {
