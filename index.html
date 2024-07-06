@@ -22,54 +22,103 @@
   <meta name="theme-color" content="#fafafa">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
-
+<header class="flex">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+       stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+       class="lucide lucide-chevrons-right right">
+    <path d="m6 17 5-5-5-5"/>
+    <path d="m13 17 5-5-5-5"/>
+  </svg>
+  <div class="flex header--file-nav">
+    <div class="flex">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+           stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+           class="lucide lucide-book-open">
+        <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/>
+        <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+      </svg>
+      <p>Main</p>
+    </div>
+    <p>/</p>
+    <p>Getting started</p>
+    <p>/</p>
+    <p>Front-end developer test proje...</p>
+  </div>
+  <div class="flex header--func">
+    <div>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+           stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+           class="lucide lucide-lock-open">
+        <rect width="18" height="11" x="3" y="11" rx="2" ry="2"/>
+        <path d="M7 11V7a5 5 0 0 1 9.9-1"/>
+      </svg>
+      Editing
+    </div>
+    <div class="flex">
+      <p>Publish Space</p>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+           stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+           class="lucide lucide-chevron-down">
+        <path d="m6 9 6 6 6-6"/>
+      </svg>
+    </div>
+  </div>
+</header>
 <main>
-  <header class="flex">
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-         stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-         class="lucide lucide-chevrons-right right">
-      <path d="m6 17 5-5-5-5"/>
-      <path d="m13 17 5-5-5-5"/>
-    </svg>
-    <div class="flex header--file-nav">
-      <div class="flex">
+  <section class="flex">
+    <div class="flex">
+      <p>P</p>
+      <div class="flex before">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-             class="lucide lucide-book-open">
-          <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/>
-          <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+             class="lucide lucide-clock">
+          <circle cx="12" cy="12" r="10"/>
+          <polyline points="12 6 12 12 16 14"/>
         </svg>
-        <p>Main</p>
+        <p>0min</p>
       </div>
-      <p>/</p>
-      <p>Getting started</p>
-      <p>/</p>
-      <p>Front-end developer test proje...</p>
-    </div>
-    <div class="flex header--func">
-      <div>
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-             class="lucide lucide-lock-open">
-          <rect width="18" height="11" x="3" y="11" rx="2" ry="2"/>
-          <path d="M7 11V7a5 5 0 0 1 9.9-1"/>
-        </svg>
-        Editing
+      <div class=" flex before"><span></span>
+        <img
+          src="https://firebasestorage.googleapis.com/v0/b/cubhouse-6822f.appspot.com/o/rabbit.png?alt=media&token=0ad67fd3-c120-410c-884f-2f05e254ca86"
+          alt="Rabbit">
       </div>
-      <div class="flex">
-        <p>Publish Space</p>
+      <div class="flex before">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-             class="lucide lucide-chevron-down">
-          <path d="m6 9 6 6 6-6"/>
+             class="lucide lucide-arrow-down-left">
+          <path d="M17 7 7 17"/>
+          <path d="M17 17H7V7"/>
         </svg>
+        <p>0</p>
       </div>
     </div>
-  </header>
+    <div class="flex">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+           stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+           class="lucide lucide-circle-check-big">
+        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+        <path d="m9 11 3 3L22 4"/>
+      </svg>
+      <svg  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+           stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+           class="lucide lucide-cloud green">
+        <path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="32" height="24" viewBox="0 0 24 24" fill="none"
+           stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+           class="lucide lucide-ellipsis-vertical black">
+        <circle cx="12" cy="12" r="1"/>
+        <circle cx="12" cy="5" r="1"/>
+        <circle cx="12" cy="19" r="1"/>
+      </svg>
+    </div>
+  </section>
 </main>
 <script src="js/app.js"></script>
 
