@@ -105,7 +105,7 @@
         <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
         <path d="m9 11 3 3L22 4"/>
       </svg>
-      <svg  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
            class="lucide lucide-cloud green">
         <path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/>
@@ -117,6 +117,36 @@
         <circle cx="12" cy="5" r="1"/>
         <circle cx="12" cy="19" r="1"/>
       </svg>
+    </div>
+  </section>
+  <section>
+    <h1>Front-end developer test project</h1>
+    <div class="separator"></div>
+    <p>Your goal is to make a page that looks exactly like this one, and it has the ability to create H1 text simply by
+      typing / then 1, then typing text, and hitting enter</p>
+    <div id="output"></div>
+    <textarea name="block" id="editor" cols="30" rows="10"
+              placeholder="Type / for blocks, @ to link docs or people"></textarea>
+    <div class="modal" id="modal">
+      <h3>Add blocks</h3>
+      <p class="sum">Keep typing to filter, or escape to exit</p>
+      <p class="filter">Filtering keyword <span id="keyword"></span></p>
+      <ul>
+        <li class="flex">
+          <p class="t-icon">T</p>
+          <div>
+            <h4>Heading 1</h4>
+            <p>Shortcut: type # + space</p>
+          </div>
+        </li>
+        <li class="flex">
+          <p class="t-icon">T</p>
+          <div>
+            <h4>Expandable Heading 1</h4>
+            <p>Shortcut: type >># + space</p>
+          </div>
+        </li>
+      </ul>
     </div>
   </section>
 </main>
